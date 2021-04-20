@@ -3,23 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E99152E262CB0FB009C85AB /* AcromineEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99152D262CB0FB009C85AB /* AcromineEntity.swift */; };
+		6E991531262CB2CB009C85AB /* ItemDefinitionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E991530262CB2CB009C85AB /* ItemDefinitionCell.swift */; };
+		6E991535262CF401009C85AB /* AcromineRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E991534262CF401009C85AB /* AcromineRepository.swift */; };
+		6E991537262CF916009C85AB /* AcromineInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E991536262CF916009C85AB /* AcromineInteractor.swift */; };
+		6E99153A262CF95C009C85AB /* SearchDefinitionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E991539262CF95C009C85AB /* SearchDefinitionPresenter.swift */; };
+		6E991549262D0717009C85AB /* ApiRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E991548262D0716009C85AB /* ApiRest.swift */; };
+		6E99154B262D0EF9009C85AB /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99154A262D0EF9009C85AB /* URLBuilder.swift */; };
+		6E99154D262D0FD2009C85AB /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99154C262D0FD2009C85AB /* Configuration.swift */; };
+		6E991552262E31ED009C85AB /* ResponseGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E991551262E31ED009C85AB /* ResponseGeneric.swift */; };
+		6E99155B262E4AB0009C85AB /* NisumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99155A262E4AB0009C85AB /* NisumAppTests.swift */; };
+		6E991567262F2D7A009C85AB /* AcromineRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E991566262F2D7A009C85AB /* AcromineRepositoryImpl.swift */; };
 		6EA12353261DD9A200623E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA12352261DD9A200623E4B /* AppDelegate.swift */; };
 		6EA12355261DD9A200623E4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA12354261DD9A200623E4B /* SceneDelegate.swift */; };
-		6EA12357261DD9A200623E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA12356261DD9A200623E4B /* ViewController.swift */; };
+		6EA12357261DD9A200623E4B /* SearchDefinitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA12356261DD9A200623E4B /* SearchDefinitionsViewController.swift */; };
 		6EA1235A261DD9A200623E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA12358261DD9A200623E4B /* Main.storyboard */; };
 		6EA1235C261DD9A500623E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA1235B261DD9A500623E4B /* Assets.xcassets */; };
 		6EA1235F261DD9A500623E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA1235D261DD9A500623E4B /* LaunchScreen.storyboard */; };
+		6EA12368261DDD5300623E4B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6EA12367261DDD5300623E4B /* Alamofire */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6E99155D262E4AB0009C85AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA12347261DD9A100623E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA1234E261DD9A100623E4B;
+			remoteInfo = NisumApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6E99152D262CB0FB009C85AB /* AcromineEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineEntity.swift; sourceTree = "<group>"; };
+		6E991530262CB2CB009C85AB /* ItemDefinitionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDefinitionCell.swift; sourceTree = "<group>"; };
+		6E991534262CF401009C85AB /* AcromineRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineRepository.swift; sourceTree = "<group>"; };
+		6E991536262CF916009C85AB /* AcromineInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineInteractor.swift; sourceTree = "<group>"; };
+		6E991539262CF95C009C85AB /* SearchDefinitionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDefinitionPresenter.swift; sourceTree = "<group>"; };
+		6E991548262D0716009C85AB /* ApiRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRest.swift; sourceTree = "<group>"; };
+		6E99154A262D0EF9009C85AB /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		6E99154C262D0FD2009C85AB /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		6E991551262E31ED009C85AB /* ResponseGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseGeneric.swift; sourceTree = "<group>"; };
+		6E991558262E4AB0009C85AB /* NisumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NisumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E99155A262E4AB0009C85AB /* NisumAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NisumAppTests.swift; sourceTree = "<group>"; };
+		6E99155C262E4AB0009C85AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E991566262F2D7A009C85AB /* AcromineRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineRepositoryImpl.swift; sourceTree = "<group>"; };
 		6EA1234F261DD9A100623E4B /* NisumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NisumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA12352261DD9A200623E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EA12354261DD9A200623E4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6EA12356261DD9A200623E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EA12356261DD9A200623E4B /* SearchDefinitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDefinitionsViewController.swift; sourceTree = "<group>"; };
 		6EA12359261DD9A200623E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EA1235B261DD9A500623E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EA1235E261DD9A500623E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,20 +62,110 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6EA1234C261DD9A100623E4B /* Frameworks */ = {
+		6E991555262E4AB0009C85AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EA1234C261DD9A100623E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA12368261DDD5300623E4B /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E99152F262CB256009C85AB /* SearchDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				6E991539262CF95C009C85AB /* SearchDefinitionPresenter.swift */,
+				6EA12356261DD9A200623E4B /* SearchDefinitionsViewController.swift */,
+				6E991530262CB2CB009C85AB /* ItemDefinitionCell.swift */,
+			);
+			path = SearchDefinition;
+			sourceTree = "<group>";
+		};
+		6E991532262CF10B009C85AB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6E991536262CF916009C85AB /* AcromineInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6E991533262CF133009C85AB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				6E991534262CF401009C85AB /* AcromineRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		6E99154E262DB55A009C85AB /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				6E991551262E31ED009C85AB /* ResponseGeneric.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		6E991559262E4AB0009C85AB /* NisumAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E99155A262E4AB0009C85AB /* NisumAppTests.swift */,
+				6E99155C262E4AB0009C85AB /* Info.plist */,
+			);
+			path = NisumAppTests;
+			sourceTree = "<group>";
+		};
+		6E991562262F2C6A009C85AB /* General */ = {
+			isa = PBXGroup;
+			children = (
+				6EA12352261DD9A200623E4B /* AppDelegate.swift */,
+				6EA12354261DD9A200623E4B /* SceneDelegate.swift */,
+				6EA1235D261DD9A500623E4B /* LaunchScreen.storyboard */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		6E991563262F2C8E009C85AB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6E991565262F2D66009C85AB /* Respository */,
+				6E99154E262DB55A009C85AB /* Response */,
+				6EA1236A261DDD6500623E4B /* Networking */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6E991564262F2C95009C85AB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6E991532262CF10B009C85AB /* Interactor */,
+				6E991533262CF133009C85AB /* Repository */,
+				6EA1236B261DDD7600623E4B /* Entity */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6E991565262F2D66009C85AB /* Respository */ = {
+			isa = PBXGroup;
+			children = (
+				6E991566262F2D7A009C85AB /* AcromineRepositoryImpl.swift */,
+			);
+			path = Respository;
+			sourceTree = "<group>";
+		};
 		6EA12346261DD9A100623E4B = {
 			isa = PBXGroup;
 			children = (
 				6EA12351261DD9A100623E4B /* NisumApp */,
+				6E991559262E4AB0009C85AB /* NisumAppTests */,
 				6EA12350261DD9A100623E4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				6EA1234F261DD9A100623E4B /* NisumApp.app */,
+				6E991558262E4AB0009C85AB /* NisumAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,20 +182,72 @@
 		6EA12351261DD9A100623E4B /* NisumApp */ = {
 			isa = PBXGroup;
 			children = (
-				6EA12352261DD9A200623E4B /* AppDelegate.swift */,
-				6EA12354261DD9A200623E4B /* SceneDelegate.swift */,
-				6EA12356261DD9A200623E4B /* ViewController.swift */,
-				6EA12358261DD9A200623E4B /* Main.storyboard */,
-				6EA1235B261DD9A500623E4B /* Assets.xcassets */,
-				6EA1235D261DD9A500623E4B /* LaunchScreen.storyboard */,
 				6EA12360261DD9A500623E4B /* Info.plist */,
+				6EA12369261DDD5A00623E4B /* Presentation */,
+				6E991564262F2C95009C85AB /* Domain */,
+				6E991563262F2C8E009C85AB /* Data */,
+				6E991562262F2C6A009C85AB /* General */,
+				6EA1236C261DDD8500623E4B /* Storyboard */,
+				6EA1235B261DD9A500623E4B /* Assets.xcassets */,
 			);
 			path = NisumApp;
+			sourceTree = "<group>";
+		};
+		6EA12369261DDD5A00623E4B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6E99152F262CB256009C85AB /* SearchDefinition */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6EA1236A261DDD6500623E4B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6E991548262D0716009C85AB /* ApiRest.swift */,
+				6E99154A262D0EF9009C85AB /* URLBuilder.swift */,
+				6E99154C262D0FD2009C85AB /* Configuration.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6EA1236B261DDD7600623E4B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				6E99152D262CB0FB009C85AB /* AcromineEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6EA1236C261DDD8500623E4B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6EA12358261DD9A200623E4B /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6E991557262E4AB0009C85AB /* NisumAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E99155F262E4AB0009C85AB /* Build configuration list for PBXNativeTarget "NisumAppTests" */;
+			buildPhases = (
+				6E991554262E4AB0009C85AB /* Sources */,
+				6E991555262E4AB0009C85AB /* Frameworks */,
+				6E991556262E4AB0009C85AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E99155E262E4AB0009C85AB /* PBXTargetDependency */,
+			);
+			name = NisumAppTests;
+			productName = NisumAppTests;
+			productReference = 6E991558262E4AB0009C85AB /* NisumAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6EA1234E261DD9A100623E4B /* NisumApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EA12363261DD9A500623E4B /* Build configuration list for PBXNativeTarget "NisumApp" */;
@@ -83,6 +261,9 @@
 			dependencies = (
 			);
 			name = NisumApp;
+			packageProductDependencies = (
+				6EA12367261DDD5300623E4B /* Alamofire */,
+			);
 			productName = NisumApp;
 			productReference = 6EA1234F261DD9A100623E4B /* NisumApp.app */;
 			productType = "com.apple.product-type.application";
@@ -97,6 +278,10 @@
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Josean Donato Jaulis Nina";
 				TargetAttributes = {
+					6E991557262E4AB0009C85AB = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 6EA1234E261DD9A100623E4B;
+					};
 					6EA1234E261DD9A100623E4B = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -111,16 +296,28 @@
 				Base,
 			);
 			mainGroup = 6EA12346261DD9A100623E4B;
+			packageReferences = (
+				6EA12366261DDD5300623E4B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				6E99153D262D00BB009C85AB /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 6EA12350261DD9A100623E4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6EA1234E261DD9A100623E4B /* NisumApp */,
+				6E991557262E4AB0009C85AB /* NisumAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6E991556262E4AB0009C85AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EA1234D261DD9A100623E4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,17 +331,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6E991554262E4AB0009C85AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E99155B262E4AB0009C85AB /* NisumAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EA1234B261DD9A100623E4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA12357261DD9A200623E4B /* ViewController.swift in Sources */,
+				6EA12357261DD9A200623E4B /* SearchDefinitionsViewController.swift in Sources */,
+				6E991567262F2D7A009C85AB /* AcromineRepositoryImpl.swift in Sources */,
+				6E991552262E31ED009C85AB /* ResponseGeneric.swift in Sources */,
+				6E991537262CF916009C85AB /* AcromineInteractor.swift in Sources */,
+				6E99153A262CF95C009C85AB /* SearchDefinitionPresenter.swift in Sources */,
+				6E99154B262D0EF9009C85AB /* URLBuilder.swift in Sources */,
 				6EA12353261DD9A200623E4B /* AppDelegate.swift in Sources */,
+				6E99152E262CB0FB009C85AB /* AcromineEntity.swift in Sources */,
+				6E99154D262D0FD2009C85AB /* Configuration.swift in Sources */,
+				6E991531262CB2CB009C85AB /* ItemDefinitionCell.swift in Sources */,
 				6EA12355261DD9A200623E4B /* SceneDelegate.swift in Sources */,
+				6E991535262CF401009C85AB /* AcromineRepository.swift in Sources */,
+				6E991549262D0717009C85AB /* ApiRest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E99155E262E4AB0009C85AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA1234E261DD9A100623E4B /* NisumApp */;
+			targetProxy = 6E99155D262E4AB0009C85AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6EA12358261DD9A200623E4B /* Main.storyboard */ = {
@@ -166,6 +389,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6E991560262E4AB0009C85AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NisumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josean.NisumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NisumApp.app/NisumApp";
+			};
+			name = Debug;
+		};
+		6E991561262E4AB0009C85AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NisumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josean.NisumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NisumApp.app/NisumApp";
+			};
+			name = Release;
+		};
 		6EA12361261DD9A500623E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -317,6 +578,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6E99155F262E4AB0009C85AB /* Build configuration list for PBXNativeTarget "NisumAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E991560262E4AB0009C85AB /* Debug */,
+				6E991561262E4AB0009C85AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6EA1234A261DD9A100623E4B /* Build configuration list for PBXProject "NisumApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -336,6 +606,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E99153D262D00BB009C85AB /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+		6EA12366261DDD5300623E4B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6EA12367261DDD5300623E4B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EA12366261DDD5300623E4B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6EA12347261DD9A100623E4B /* Project object */;
 }
